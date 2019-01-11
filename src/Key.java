@@ -2,7 +2,8 @@ import java.util.HashMap;
 
 public class Key {
 
-    private String ALPHABET = "abcdefghijklmnopqrstuvwxyz";
+    private final String ALPHABET = "abcdefghijklmnopqrstuvwxyz";
+
     private HashMap<Character, Character> map;
 
     public Key(HashMap<Character, Character> map) {
